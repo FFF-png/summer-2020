@@ -15,19 +15,19 @@ int C[18];
     }
 
  printf(' F - ');
- for (int i=0; i<= 9, i++){
-     printf('%d/t', F[i];
-     )
+ for (int fi=0; fi<= 9; fi++){
+     printf('%d/t', F[fi]);
+     
  }
  printf('/n');
 printf(' K - ');
- for (int i=0; i<= 9, i++){
-     printf('%d/t', K[i];
-     )
+ for (int i=0; i<= 9; i++){
+     printf('%d/t', K[i]);
+     
  }
   printf('/n');
 printf(' C - ');
- for (int i=0; i<= 18, i++){
+ for (int i=0; i<= 18; i++){
      printf('%d/t', C[i]);
  }
 

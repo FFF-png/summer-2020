@@ -10,7 +10,7 @@ int main(){
     for (i = 0; i <= 2; i++) {
     for (j=0; j<=6; j++) {
       U[i][j] = rand();
-      printf('%d/t', P[i][j]); 
+      printf('%d/t', U[i][j]); 
     }printf('/n');}
     int max = U[0][0];
     //Заміни місцями, якщо виводить по радках//
@@ -22,7 +22,7 @@ int main(){
         }
 for (i=0; i=2; i++){
   for(j=0;j=6; j++){
-    printf('%d/t', U[i][j])
+    printf('%d/t', U[i][j]);
   }
   printf('/n');
 }

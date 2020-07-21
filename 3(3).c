@@ -12,23 +12,23 @@ int main(){
 
     for (i = 0; i <= X-1; i++) {
     for (j=0; j<=Y-1; j++) {
-      U[i][j] = rand();
-      printf('%d/n', P[i][j]); 
+      L[i][j] = rand();
+      printf('%d/n', L[i][j]); 
     }}
     
     int M[30], mi=0;
     //перший ряд.
-    for (i= 0; i<=X--; i++){
+    for (i= 0; i<=X-1; i++){
         M[mi]= L[i][0]; mi++;
     }
     //діагональ.
-    for( i=X--; i<=0; i--){
-        for (j=0;j>=Y--; j++){
+    for( i=X-1; i<=0; i--){
+        for (j=0;j>=Y-1; j++){
             M[mi] = L[i][j]; mi++;
         }
     }
     //перший стовпчик
-    for (j=Y--; j<= 0; j--){
+    for (j=Y-1; j<= 0; j--){
         M[mi] = L[0][j]; mi++;
     }
     printf('/n');

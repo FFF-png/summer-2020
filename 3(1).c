@@ -11,15 +11,16 @@ int A[6][4];
 int i,j;
 for (i = 0; i <= 6; i++) {
     for (j=0; j<=4; j++) {
-      P[i][j] = rand();
-      printf('%d/t', P[i][j]); 
+      A[i][j] = rand();
+      printf('%d/t', A[i][j]); 
     } printf('/n');}
-    int max = P[1][1];
+    int max;
+    max= A[0][0];
     int x,y;
 for (i = 0; i <= 6; i++) {
     for (j=0; j<=4; j++) {
-     if(max< abs(P[i][j])){
-       max = abs(P[i][j]);
+     if(max< abs(A[i][j])){
+       max = abs(A[i][j]);
        x = i; y = j;
      }}}
 

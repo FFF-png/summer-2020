@@ -7,7 +7,7 @@
 int main(){
 //RANDOM
 srand(time(NULL));
-int P[N];
+int P[N],i;
 for (i = 0; i <= N; i++) {
     P[i] = rand();
     printf('%d/t', P[i]);
